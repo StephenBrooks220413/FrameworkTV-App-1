@@ -1,7 +1,87 @@
-﻿body {
+﻿.titleTop {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,31,30,0.9769758655178932) 0%);
+    color: white;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.author {
+    width: 400px;
+    height: 350px;
+    margin-top:130px;
+}
+
+.author i {
+    word-spacing: 40px;
+    font-size:1.8em;
+    color:dodgerblue;
+    margin-bottom:30px;
+}
+
+/*nav css effects*/
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .links-wrapper > .nav-link {
+        width: 90px;
+        text-align: center;
+    }
+
+        .links-wrapper > .nav-link a {
+            font-family: "Ubuntu Condensed", sans-serif;
+            color: dimgrey;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+
+            .links-wrapper > .nav-link a:hover {
+                color: #cea135;
+                letter-spacing: 4px;
+            }
+
+
+/*Section blocks with images*/
+.section-1 {
+    background: url(https://images.unsplash.com/photo-1526649661456-89c7ed4d00b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1171&q=80) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+}
+
+.section-2 {
+    background: url(https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.section-3 {
     background: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.section-4 {
+    background: url(https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
 }
