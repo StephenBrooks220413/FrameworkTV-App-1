@@ -52,8 +52,40 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 30vh;
+    margin-top: 60px;
+    height: 50vh;
     width: 100%;
+}
+
+/*special features section*/
+article {
+    margin-top:110px;
+    margin-bottom: 120px;
+}
+
+article i {
+    font-size:2em;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    width: 80%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:whitesmoke;
+    box-shadow: 9px 8px 7px 8px lightgrey;
+}
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover {
+    transition: ease-in-out;
+    transition-delay: 0.2s;
+    transform: scale(1.2);
 }
 
 .section-2 {
