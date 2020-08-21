@@ -25,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1em;
 }
 
     .links-wrapper > .nav-link {
@@ -44,6 +45,45 @@
                 letter-spacing: 4px;
             }
 
+@media(max-width:768px) {
+    .links-wrapper {
+        display: block;
+        font-size:1.6em;
+    }
+        .links-wrapper > .nav-link {
+            width: 100%;
+        }
+    aside {
+        display: none;
+    }
+    .notes {
+        display: flex;
+    }
+}
+
+aside {
+    width: 180px;
+    height: 220px;
+    padding-top: 30px;
+    position: absolute;
+    top: 370px;
+    right: 20px;
+}
+
+.notes {
+    display: none;
+    width: 120px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+aside li {
+    list-style: none;
+    font-style: italic;
+}
 
 /*Section blocks with images*/
 .section-1 {
@@ -103,16 +143,6 @@ article i {
 
 .section-2 {
     background: url(https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 60vh;
-    width: 100%;
-}
-
-.section-3 {
-    background: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using FrameworkTV.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FrameworkTV.Controllers
 {
@@ -29,6 +30,18 @@ namespace FrameworkTV.Controllers
         }
 
         public IActionResult Contact()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Profile()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Order()
         {
             return View();
         }
